@@ -20,9 +20,30 @@ namespace Repository_URL_Generator
     /// </summary>
     public partial class MainWindow : Window
     {
+        const string PERSONAL_ACCESS_TOKEN = "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";
+        const string USERNAME = "DanDeDrummer";
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string projectName = "";
+            projectName = tbxProjectName.Text;
+            if (projectName == "")
+            {
+                MessageBox.Show("Enter a Project name!");
+                return;
+            }
+            //Create a string that adds the TOKEN into the link
+            string output = "https://" + PERSONAL_ACCESS_TOKEN + "@github.com/" + USERNAME + "/" + projectName + ".git";
+            tbxOutput.Text = output;
+            projectName = "";
+
+            //Clear all
+            tbxProjectName.Text = "";
         }
     }
 }
