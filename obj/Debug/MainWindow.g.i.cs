@@ -41,7 +41,7 @@ namespace Repository_URL_Generator {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 11 "..\..\MainWindow.xaml"
+        #line 12 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox tbxOutput;
         
@@ -49,7 +49,7 @@ namespace Repository_URL_Generator {
         #line hidden
         
         
-        #line 13 "..\..\MainWindow.xaml"
+        #line 14 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.Label lblProjectName;
         
@@ -57,7 +57,7 @@ namespace Repository_URL_Generator {
         #line hidden
         
         
-        #line 14 "..\..\MainWindow.xaml"
+        #line 15 "..\..\MainWindow.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox tbxProjectName;
         
@@ -96,7 +96,7 @@ namespace Repository_URL_Generator {
             {
             case 1:
             
-            #line 10 "..\..\MainWindow.xaml"
+            #line 11 "..\..\MainWindow.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default
