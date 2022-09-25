@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="100,322,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox x:Name="tbxOutput" HorizontalAlignment="Left" Height="23" Margin="100,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="440"/>
-        <Label Content="Output:" HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblProjectName" Content="Project Name:" HorizontalAlignment="Left" Margin="10,250,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbxProjectName" HorizontalAlignment="Left" Height="23" Margin="100,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Generate
+" HorizontalAlignment="Left" Margin="100,103,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <TextBox x:Name="tbxOutput" HorizontalAlignment="Left" Height="46" Margin="100,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="440"/>
+        <Label Content="Output:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblProjectName" Content="Project Name:" HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxProjectName" HorizontalAlignment="Left" Height="23" Margin="100,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
 
     </Grid>
 </Window>
